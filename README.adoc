@@ -1,0 +1,17 @@
+= forge-auth
+
+MIT-licensed D library for forge credentials: OAuth (where supported), personal access tokens, and arbitrary self-hosted instances.
+
+== Features
+
+* Store instances in SDL (`instances.sdl`)
+* Resolve a token for a host (OAuth token, PAT, or `gh`/`glab` reuse hints)
+* Device-code / loopback OAuth helpers for GitHub and GitLab.com (stubs call browser + poll)
+
+== Usage
+
+----
+dub add forge-auth
+----
+
+See `instances.example.sdl` and the `forgeauth` package.

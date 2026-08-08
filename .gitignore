@@ -1,0 +1,11 @@
+*
+!source/
+!source/**
+!dub.json
+!README.adoc
+!CHANGELOG.adoc
+!LICENSE
+!instances.example.sdl
+!.gitignore
+!.github/
+!.github/**

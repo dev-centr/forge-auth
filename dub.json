@@ -1,0 +1,14 @@
+{
+	"name": "forge-auth",
+	"description": "OAuth, PAT, and self-hosted instance credentials for forge platforms (GitHub, GitLab, etc.).",
+	"authors": ["Dev-Centr"],
+	"license": "MIT",
+	"copyright": "Copyright © 2026, Dev-Centr",
+	"homepage": "https://github.com/dev-centr/forge-auth",
+	"targetType": "library",
+	"dependencies": {
+		"sdlang-d": "~>0.10.6"
+	},
+	"sourcePaths": ["source"],
+	"importPaths": ["source"]
+}

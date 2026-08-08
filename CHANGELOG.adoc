@@ -1,0 +1,5 @@
+= Changelog
+
+== 0.1.0 (2026-08-08)
+
+* Initial library: SDL instance registry, PAT storage paths, OAuth device-flow scaffolding for GitHub and GitLab.

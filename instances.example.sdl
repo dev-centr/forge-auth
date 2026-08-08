@@ -1,0 +1,22 @@
+// Example forge-auth instances registry.
+// Copy to ~/.config/forge-auth/instances.sdl (or %APPDATA%\forge-auth\instances.sdl).
+
+instance "github.com" {
+    kind "github"
+    auth "oauth"          // oauth | pat | cli
+    // oauth_client_id "Iv1...."
+    // token_file "tokens/github.com.token"
+}
+
+instance "gitlab.com" {
+    kind "gitlab"
+    auth "pat"
+    // token_file "tokens/gitlab.com.token"
+}
+
+instance "git.example.com" {
+    kind "gitlab"
+    base_url "https://git.example.com"
+    auth "pat"
+    // token_file "tokens/git.example.com.token"
+}
