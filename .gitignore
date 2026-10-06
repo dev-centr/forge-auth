@@ -9,3 +9,5 @@
 !.gitignore
 !.github/
 !.github/**
+!/.editorconfig
+!/.gitattributes
